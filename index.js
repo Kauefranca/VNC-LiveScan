@@ -72,5 +72,5 @@ function showTable(table) {
 };
 
 function connect(ip) {
-    exec(`${VNCViewerPath} -host=${ip} -password=${process.env.VNC_PASSWORD} -scale=auto -encoding=tight -viewonly`);
+    exec(`${VNCViewerPath} -host=${ip} -password=${process.env.VNC_PASSWORD} -scale=auto -encoding=tight`);
 };
